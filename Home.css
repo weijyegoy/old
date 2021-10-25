@@ -1,0 +1,74 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(26,26,26,0.75), rgba(26,26,26,0.75)), url("images/Oldtrafford.jpg");
+  min-height: 1084px;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 403px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 422px;
+  height: 422px;
+  background-image: url("images/P19.jpg");
+  background-position: 50% 0%;
+  margin: -382px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 3rem;
+  font-weight: 700;
+  transition-duration: 4.5s;
+  margin: 43px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: linear-gradient(to right, white, #e9f2fa);
+  border-style: solid;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  animation-duration: 1000ms;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
+  margin: 21px auto 60px;
+  padding: 9px 22px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    background-position: 50% 50%;
+    min-height: 894px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 {
+    min-height: 685px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 514px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 242px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+}
